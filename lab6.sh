@@ -5,6 +5,7 @@ checkExist() {
 	echo "Enter Filename : "
 	read filename
 
+	#Checking Whether file exist or not -> if file doesn't exist exit OUT OF PROGRAM
 	test ! -f $filename && echo "File does not exist" && exit 1
 
 	echo "Enter text you want to search : "
@@ -22,9 +23,5 @@ checkExist() {
 	fi
 }
 
-
-
-
-
-
+#Function Call.......
 checkExist
