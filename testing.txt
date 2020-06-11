@@ -1,0 +1,2 @@
+hello
+purpose: testing a program with the help of this file
